@@ -3,7 +3,6 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 import React from "react";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
 import Navbar from "./nav";
-import { ModeToggle } from "./ui/mode-toggle";
 import { ArrowDown } from "lucide-react";
 import Categories from "./categories";
 import { images } from "@/lib/constants";
