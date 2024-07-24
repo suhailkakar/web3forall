@@ -2,6 +2,7 @@ import React from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { categories, images } from "@/lib/constants";
 import Image from "next/image";
+import Tile from "./ui/tile";
 
 export default function Categories({
   searchParams,
@@ -29,14 +30,13 @@ export default function Categories({
               {images
                 .filter((image) => image.category.includes(category))
                 .map((image) => (
-                  <div key={image.id}>
-                    <Image
-                      src={image.url}
-                      alt={image.name}
-                      width={400}
-                      height={400}
-                    />
-                  </div>
+                  <Tile
+                    url={image.url}
+                    name={image.name}
+                    id={image.id}
+                    key={image.id}
+                    categories={image.category}
+                  />
                 ))}
             </div>
           </TabsContent>
