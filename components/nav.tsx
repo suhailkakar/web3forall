@@ -14,13 +14,16 @@ export default function Navbar() {
       className=" relative max-w-6xl mx-auto py-6  overflow-hidden flex flex-row justify-between"
     >
       <h1 className="text-foreground font-bold">{APP_NAME}</h1>
-
       <div>
         <Button
           variant={"ghost"}
+          asChild
           className="hover:bg-transparent dark:hover:bg-transparent dark:hover:text-gray-500 transition duration-500"
         >
-          @suhailkakar
+          <Link target="_blank" href="https://x.com/suhailkakar">
+            {" "}
+            @suhailkakar
+          </Link>
         </Button>
       </div>
     </div>
