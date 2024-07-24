@@ -11,7 +11,7 @@ export function Hero() {
   return (
     <div className="px-6 md:px-0">
       <Navbar />
-      <div className="h-[30rem] md:h-[40rem] w-full rounded-md  relative flex flex-col items-center justify-center antialiased">
+      <div className="h-[20rem] md:h-[40rem] w-full rounded-md  relative flex flex-col items-center justify-center antialiased">
         <HoverBorderGradient
           containerClassName="rounded-full"
           as="button"

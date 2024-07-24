@@ -16,7 +16,7 @@ export default function Categories({
   return (
     <div>
       <Tabs defaultValue={category}>
-        <TabsList className="mb-4">
+        <TabsList className="mb-10 md:mb-4">
           {categories.map((category) => (
             <TabsTrigger key={category} value={category}>
               {category}
@@ -25,7 +25,7 @@ export default function Categories({
         </TabsList>
         {categories.map((category) => (
           <TabsContent key={category} value={category}>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {images
                 .filter((image) => image.category.includes(category))
                 .map((image) => (
