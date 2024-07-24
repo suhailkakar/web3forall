@@ -1,4 +1,5 @@
-import Image from "next/image";
+"use client";
+
 import React from "react";
 import {
   AlertDialog,
@@ -11,34 +12,27 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
-import { Badge } from "./badge";
+import { images } from "@/lib/constants";
+import { Badge } from "./ui/badge";
+import Image from "next/image";
 
-export default function Tile({
-  url,
-  name,
-  id,
-  categories,
-}: {
-  url: string;
-  name: string;
-  id: number;
-  categories: string[];
-}) {
+export default function DefaultPopup({ id }: { id: number }) {
+  const image = images.find((image) => image.id === id) as any;
+
+  const { url, name, category } = image;
+
   const shareImage = () => {
     const twitterUrl = `https://twitter.com/intent/tweet?text=${name}: explain like i'm five by @suhailkakar. Check it out at https://web3forall.xyz?id=${id}`;
     window.open(twitterUrl, "_blank");
   };
 
   return (
-    <AlertDialog>
-      <AlertDialogTrigger>
-        <Image src={url} alt={name} width={400} height={400} />
-      </AlertDialogTrigger>
+    <AlertDialog open={true}>
       <AlertDialogContent>
         <AlertDialogHeader>
           <AlertDialogTitle>{name}</AlertDialogTitle>
           <AlertDialogDescription className="space-x-2">
-            {categories.map((item, index) => (
+            {category?.map((item: any, index: number) => (
               <Badge key={index}>{item}</Badge>
             ))}
           </AlertDialogDescription>
