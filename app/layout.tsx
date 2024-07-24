@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "web3 for all",
   description:
     "where web3 is explained like you’re five. no geeky jargon, just plain, fun explanations",
+  openGraph: {
+    images: "/og.png",
+  },
 };
 
 const fontSans = FontSans({

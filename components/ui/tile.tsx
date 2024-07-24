@@ -12,7 +12,6 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import { Badge } from "./badge";
-import { Button } from "./button";
 
 export default function Tile({
   url,
