@@ -32,9 +32,9 @@ export default function Tile({
   return (
     <AlertDialog>
       <AlertDialogTrigger>
-        <Image src={url} alt={name} width={400} height={400} />
+        <Image src={url} alt={name} width={900} height={400} />
       </AlertDialogTrigger>
-      <AlertDialogContent>
+      <AlertDialogContent className="max-w-3xl">
         <AlertDialogHeader>
           <AlertDialogTitle>{name}</AlertDialogTitle>
           <AlertDialogDescription className="space-x-2">
@@ -43,7 +43,7 @@ export default function Tile({
             ))}
           </AlertDialogDescription>
         </AlertDialogHeader>
-        <Image src={url} alt={name} width={1200} height={1200} />
+        <Image src={url} alt={name} width={1000} height={1000} />
         <AlertDialogFooter>
           <AlertDialogCancel>Cancel</AlertDialogCancel>
           <AlertDialogAction onClick={shareImage}>Share</AlertDialogAction>
