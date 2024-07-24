@@ -26,9 +26,13 @@ export default function DefaultPopup({ id }: { id: number }) {
     window.open(twitterUrl, "_blank");
   };
 
+  const closeModal = () => {
+    window.open("/", "_self");
+  };
+
   return (
     <AlertDialog open={true}>
-      <AlertDialogContent>
+      <AlertDialogContent className="max-w-3xl">
         <AlertDialogHeader>
           <AlertDialogTitle>{name}</AlertDialogTitle>
           <AlertDialogDescription className="space-x-2">
@@ -39,7 +43,7 @@ export default function DefaultPopup({ id }: { id: number }) {
         </AlertDialogHeader>
         <Image src={url} alt={name} width={1200} height={1200} />
         <AlertDialogFooter>
-          <AlertDialogCancel>Cancel</AlertDialogCancel>
+          <AlertDialogCancel onClick={closeModal}>Cancel</AlertDialogCancel>
           <AlertDialogAction onClick={shareImage}>Share</AlertDialogAction>
         </AlertDialogFooter>
       </AlertDialogContent>
