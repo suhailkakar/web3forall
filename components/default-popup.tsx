@@ -44,7 +44,7 @@ export default function DefaultPopup({ id }: { id: number }) {
           <AlertDialogTitle>{name}</AlertDialogTitle>
           <AlertDialogDescription className="flex flex-row justify-between">
             <div className="flex flex-row space-x-2">
-              {category.map((item, index) => (
+              {category.map((item: any, index: number) => (
                 <Badge key={index}>{item}</Badge>
               ))}
             </div>
