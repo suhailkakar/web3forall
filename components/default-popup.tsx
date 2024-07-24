@@ -22,7 +22,6 @@ import { Button } from "./ui/button";
 
 export default function DefaultPopup({ id }: { id: string }) {
   const image = images.find((image) => image.id === id) as any;
-  console.log(image);
 
   const { url, name, category } = image;
 
