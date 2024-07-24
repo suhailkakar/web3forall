@@ -4,10 +4,12 @@ import React from "react";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
 import Navbar from "./nav";
 import { ModeToggle } from "./ui/mode-toggle";
+import { ArrowDown } from "lucide-react";
+import Categories from "./categories";
 
 export function Hero() {
   return (
-    <div className="h-[40rem]   ">
+    <div className="h-[40rem]">
       <Navbar />
       <div className="h-full w-full rounded-md  relative flex flex-col items-center justify-center antialiased">
         <HoverBorderGradient
@@ -27,7 +29,13 @@ export function Hero() {
           </p>
         </div>
       </div>
+      <div className="-mt-[8rem] flex w-full justify-center items-center">
+        <ArrowDown className="text-white w-8 h-8" />
+      </div>
       <BackgroundBeams />
+      <div className="max-w-6xl mx-auto mt-[10rem]">
+        <Categories />
+      </div>
     </div>
   );
 }

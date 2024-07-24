@@ -1,11 +1,9 @@
-import { APP_NAME } from "@/lib/constants";
+import { APP_NAME, categories } from "@/lib/constants";
 import React from "react";
-import { ModeToggle } from "./ui/mode-toggle";
 import Link from "next/link";
 import { Button } from "./ui/button";
 
 export default function Navbar() {
-  const categories = ["ethereum", "zk", "defi", "layer 2", "privacy"];
   return (
     <div
       style={{
@@ -16,13 +14,7 @@ export default function Navbar() {
       className=" relative max-w-6xl mx-auto py-6  overflow-hidden flex flex-row justify-between"
     >
       <h1 className="text-foreground font-bold">{APP_NAME}</h1>
-      <ul className="flex flex-row space-x-6">
-        {categories.map((category) => (
-          <Link key={category} href={`#${category}`}>
-            {category}
-          </Link>
-        ))}
-      </ul>
+
       <div>
         <Button
           variant={"ghost"}
