@@ -20,8 +20,9 @@ import { share } from "@/lib/share";
 import { download } from "@/lib/download";
 import { Button } from "./ui/button";
 
-export default function DefaultPopup({ id }: { id: number }) {
+export default function DefaultPopup({ id }: { id: string }) {
   const image = images.find((image) => image.id === id) as any;
+  console.log(image);
 
   const { url, name, category } = image;
 
@@ -44,7 +45,7 @@ export default function DefaultPopup({ id }: { id: number }) {
           <AlertDialogTitle>{name}</AlertDialogTitle>
           <AlertDialogDescription className="flex flex-row justify-between">
             <div className="flex flex-row space-x-2">
-              {category.map((item: any, index: number) => (
+              {category.map((item: any, index: string) => (
                 <Badge key={index}>{item}</Badge>
               ))}
             </div>

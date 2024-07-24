@@ -25,7 +25,7 @@ export default function Tile({
 }: {
   url: string;
   name: string;
-  id: number;
+  id: string;
   categories: string[];
 }) {
   const shareImage = () => {
