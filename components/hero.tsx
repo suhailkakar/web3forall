@@ -6,8 +6,11 @@ import Navbar from "./nav";
 import { ModeToggle } from "./ui/mode-toggle";
 import { ArrowDown } from "lucide-react";
 import Categories from "./categories";
+import { images } from "@/lib/constants";
+import Link from "next/link";
 
 export function Hero() {
+  const newItem = images[images.length - 1];
   return (
     <div className="px-6 md:px-0">
       <Navbar />
@@ -17,7 +20,9 @@ export function Hero() {
           as="button"
           className="bg-transparent  text-white flex items-center space-x-2"
         >
-          <span>NEW: ZK Proof, explain like I’m five</span>
+          <Link href={"?id=" + newItem.id}>
+            NEW: {newItem.name}, explain like I’m five
+          </Link>
         </HoverBorderGradient>
         <div className="max-w-4xl mx-auto p-4 mt-4">
           <h1 className="relative z-10 text-3xl md:text-7xl   bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">

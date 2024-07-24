@@ -36,7 +36,7 @@ export const images = [
     url: "https://ik.imagekit.io/onboard/web3forall/chainlink.png",
   },
   {
-    name: "circle-starks",
+    name: "circle starks",
     id: 4,
     category: ["all", "zk", "privacy", "ethereum"],
     url: "https://ik.imagekit.io/onboard/web3forall/circle-starks.png",
@@ -54,7 +54,7 @@ export const images = [
     url: "https://ik.imagekit.io/onboard/web3forall/ens.png",
   },
   {
-    name: "ethereum-wallet",
+    name: "ethereum wallet",
     id: 7,
     category: ["all", "ethereum", "defi"],
     url: "https://ik.imagekit.io/onboard/web3forall/ethereum-wallet.png",
@@ -132,15 +132,15 @@ export const images = [
     url: "https://ik.imagekit.io/onboard/web3forall/usdc.png",
   },
   {
-    name: "zk-proofs",
-    id: 20,
-    category: ["all", "zk", "privacy"],
-    url: "https://ik.imagekit.io/onboard/web3forall/zk-proofs.png",
-  },
-  {
     name: "zksync",
     id: 21,
     category: ["all", "zk", "layer 2"],
     url: "https://ik.imagekit.io/onboard/web3forall/zksync.png",
+  },
+  {
+    name: "zk proofs",
+    id: 20,
+    category: ["all", "zk", "privacy"],
+    url: "https://ik.imagekit.io/onboard/web3forall/zk-proofs.png",
   },
 ];
