@@ -3,6 +3,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Inter as FontSans } from "next/font/google";
 import { ThemeProvider } from "@/providers/theme-provider";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "web3 for all",
@@ -39,6 +40,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <GoogleAnalytics gaId="G-WQ4K26N44G" />
       </body>
     </html>
   );
