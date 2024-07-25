@@ -41,7 +41,7 @@ export default function Tile({
       <AlertDialogTrigger>
         <Image src={url} alt={name} width={900} height={400} />
       </AlertDialogTrigger>
-      <AlertDialogContent className="max-w-3xl">
+      <AlertDialogContent className="max-w-xl">
         <AlertDialogHeader className="relative">
           <AlertDialogTitle>{name}</AlertDialogTitle>
           <AlertDialogDescription className="flex flex-row justify-between">

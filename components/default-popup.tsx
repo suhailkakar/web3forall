@@ -39,7 +39,7 @@ export default function DefaultPopup({ id }: { id: string }) {
 
   return (
     <AlertDialog open={true}>
-      <AlertDialogContent className="max-w-3xl">
+      <AlertDialogContent className="max-w-xl">
         <AlertDialogHeader className="relative">
           <AlertDialogTitle>{name}</AlertDialogTitle>
           <AlertDialogDescription className="flex flex-row justify-between">
