@@ -143,4 +143,22 @@ export const images = [
     category: ["all", "zk", "privacy"],
     url: "https://ik.imagekit.io/onboard/web3forall/zk-proofs.png",
   },
+  {
+    name: "flash loans",
+    id: "flash-loans",
+    category: ["all", "defi"],
+    url: "https://ik.imagekit.io/onboard/web3forall/flash-loans.png",
+  },
+  {
+    name: "tornado cash",
+    id: "tornado-cash",
+    category: ["all", "privacy", "defi"],
+    url: "https://ik.imagekit.io/onboard/web3forall/tornado-cash.png",
+  },
+  {
+    name: "defi",
+    id: "defi",
+    category: ["all", "defi"],
+    url: "https://ik.imagekit.io/onboard/web3forall/defi.png",
+  },
 ];
