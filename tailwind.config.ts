@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-const { fontFamily } = require("tailwindcss/defaultTheme");
 
 const colors = require("tailwindcss/colors");
 const {
@@ -60,7 +59,7 @@ const config = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
+        sans: ["Inter", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
