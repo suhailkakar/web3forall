@@ -161,4 +161,10 @@ export const images = [
     category: ["all", "defi"],
     url: "https://ik.imagekit.io/onboard/web3forall/defi.png",
   },
+    {
+    name: "calimero",
+    id: "calimero",
+    category: ["all", "data privacy"],
+    url: "https://raw.githubusercontent.com/calimero-network/calimero-network.github.io/master/static/eli5withtrademark.png",
+  },
 ];
