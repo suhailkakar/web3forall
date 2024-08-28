@@ -18,6 +18,12 @@ export const images = [
     url: "https://ik.imagekit.io/onboard/web3forall/aave.png",
   },
   {
+    name: "arweave",
+    id: "arweave",
+    category: ["all", "layer 1"],
+    url: "https://ik.imagekit.io/onboard/web3forall/arweave.png",
+  },
+  {
     name: "base",
     id: "base",
     category: ["all", "ethereum", "layer 2"],
