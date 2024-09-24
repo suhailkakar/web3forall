@@ -106,7 +106,7 @@ export const images = [
     name: "nillion",
     id: "nillion",
     category: ["all", "privacy"],
-    url: "https://ik.imagekit.io/hehozo/nillion.png",
+    url: "https://ik.imagekit.io/onboard/web3forall/nillion.png",
     author: {
       name: "Helen",
       url: "https://github.com/hehozo",
