@@ -17,12 +17,7 @@ export const images = [
     category: ["all", "defi", "ethereum"],
     url: "https://ik.imagekit.io/onboard/web3forall/aave.png",
   },
-  {
-    name: "arweave",
-    id: "arweave",
-    category: ["all", "layer 1"],
-    url: "https://arweave.net/L6hx-Pdk7TaKxolRRsNPMxOE4vTkmxZLJzbTgZsif-E",
-  },
+
   {
     name: "base",
     id: "base",
@@ -111,7 +106,12 @@ export const images = [
     name: "nillion",
     id: "nillion",
     category: ["all", "privacy"],
-    url: "https://ik.imagekit.io/hehozo/nillion.png",
+    url: "https://ik.imagekit.io/onboard/web3forall/nillion.png",
+    author: {
+      name: "Helen",
+      url: "https://github.com/hehozo",
+      image: "https://github.com/hehozo.png",
+    },
   },
   {
     name: "optimism",
@@ -173,10 +173,21 @@ export const images = [
     category: ["all", "defi"],
     url: "https://ik.imagekit.io/onboard/web3forall/defi.png",
   },
-    {
+  {
     name: "calimero",
     id: "calimero",
     category: ["all", "data privacy"],
-    url: "https://raw.githubusercontent.com/calimero-network/calimero-network.github.io/master/static/eli5withtrademark.png",
+    url: "https://ik.imagekit.io/onboard/web3forall/calimero.png",
+  },
+  {
+    name: "arweave",
+    id: "arweave",
+    category: ["all", "layer 1"],
+    url: "https://ik.imagekit.io/onboard/web3forall/arweave.png",
+    author: {
+      name: "Helen",
+      url: "https://github.com/hehozo",
+      image: "https://github.com/hehozo.png",
+    },
   },
 ];

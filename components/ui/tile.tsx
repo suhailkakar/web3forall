@@ -16,17 +16,24 @@ import { Button } from "./button";
 import { Download, X } from "lucide-react";
 import { share } from "@/lib/share";
 import { download } from "@/lib/download";
+import Link from "next/link";
 
 export default function Tile({
   url,
   name,
   id,
   categories,
+  author,
 }: {
   url: string;
   name: string;
   id: string;
   categories: string[];
+  author?: {
+    name: string;
+    url: string;
+    image: string;
+  };
 }) {
   const shareImage = () => {
     share(name, id);
@@ -39,7 +46,24 @@ export default function Tile({
   return (
     <AlertDialog>
       <AlertDialogTrigger>
-        <Image src={url} alt={name} width={900} height={400} />
+        <div className="relative">
+          <Image src={url} alt={name} width={900} height={400} />
+          <div className="absolute bottom-4 left-4">
+            {author && (
+              <Badge variant={"secondary"}>
+                <Image
+                  src={author.image}
+                  alt={author.name}
+                  width={20}
+                  height={20}
+                  className="rounded-full"
+                />
+
+                <p className="text-sm ml-2">by {author.name}</p>
+              </Badge>
+            )}
+          </div>
+        </div>
       </AlertDialogTrigger>
       <AlertDialogContent className="max-w-xl">
         <AlertDialogHeader className="relative">
@@ -56,12 +80,32 @@ export default function Tile({
           </AlertDialogCancel>
         </AlertDialogHeader>
         <Image src={url} alt={name} width={1000} height={1000} />
-        <AlertDialogFooter>
-          <Button onClick={downloadImage} variant={"outline"}>
-            <Download className="w-3 h-3 mr-2" />
-            Download
-          </Button>
-          <AlertDialogAction onClick={shareImage}>Share</AlertDialogAction>
+        <AlertDialogFooter className="flex flex-row sm:justify-between">
+          {author && (
+            <Badge
+              onClick={() => {
+                window.open(author.url, "_blank");
+              }}
+              variant={"secondary"}
+              className="cursor-pointer"
+            >
+              <Image
+                src={author.image}
+                alt={author.name}
+                width={20}
+                height={20}
+                className="rounded-full"
+              />
+              <p className="text-sm ml-2">by {author.name}</p>
+            </Badge>
+          )}
+          <div className="flex flex-row space-x-2">
+            <Button onClick={downloadImage} variant={"outline"}>
+              <Download className="w-3 h-3 mr-2" />
+              Download
+            </Button>
+            <AlertDialogAction onClick={shareImage}>Share</AlertDialogAction>
+          </div>
         </AlertDialogFooter>
       </AlertDialogContent>
     </AlertDialog>
