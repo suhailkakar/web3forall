@@ -21,7 +21,7 @@ export const images = [
     name: "arweave",
     id: "arweave",
     category: ["all", "layer 1"],
-    url: "https://ik.imagekit.io/onboard/web3forall/arweave.png",
+    url: "https://arweave.net/L6hx-Pdk7TaKxolRRsNPMxOE4vTkmxZLJzbTgZsif-E",
   },
   {
     name: "base",
@@ -106,6 +106,12 @@ export const images = [
     id: "near",
     category: ["all", "layer 1"],
     url: "https://ik.imagekit.io/onboard/web3forall/near.png",
+  },
+  {
+    name: "nillion",
+    id: "nillion",
+    category: ["all", "privacy"],
+    url: "https://ik.imagekit.io/hehozo/nillion.png",
   },
   {
     name: "optimism",
