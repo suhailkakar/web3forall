@@ -53,6 +53,7 @@ export default function Categories({
                     id={image.id}
                     key={image.id}
                     categories={image.category}
+                    author={image.author}
                   />
                 ))}
             </div>
