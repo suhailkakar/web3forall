@@ -34,3 +34,44 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+##  Contributing
+Thank you for considering contributing to this project. Your contributions are welcome!
+
+Most of the images in this repository are hosted on [Imagekit](https://imagekit.io/). Feel free to use it or any image content delivery platforms.
+
+Head over to `lib/constants.ts` and add an entry by filling this template.
+
+```
+{
+  name: "<the name of the web3 project or term>",
+  id: "<repeat the name>",
+  category: ["all", "<more categories>"],
+  url: "",
+  author: {
+    name: "<your name>",
+    url: "<your URL>",
+    image: "<your image link>"
+  }
+}
+```
+Here's an example with the Arweave ELI5 diagram.
+
+```
+{
+    name: "arweave",
+    id: "arweave",
+    category: ["all", "layer 1"],
+    url: "https://ik.imagekit.io/onboard/web3forall/arweave.png",
+    author: {
+      name: "Helen",
+      url: "https://github.com/hehozo",
+      image: "https://github.com/hehozo.png",
+    },
+  }
+```
+Now, you can make a pull request against the main branch. Your pull request should be merged soon.
+
+
+
