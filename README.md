@@ -1,4 +1,4 @@
-
+# Web3 For All
 
 ##  Contributing
 Thank you for considering contributing to this project. Your contributions are welcome!
