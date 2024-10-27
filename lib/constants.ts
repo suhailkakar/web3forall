@@ -201,4 +201,15 @@ export const images = [
       image: "https://github.com/rekahbeee.png",
     }, 
   },
+  {
+    name: "bridging",
+    id: "bridging",
+    category: ["all", "defi"],
+    url: "https://ik.imagekit.io/rekahbeee/Bridging.svg?updatedAt=1729932421496",
+    author: {
+      name: "Rebekah",
+      url: "https://github.com/rekahbeee",
+      image: "https://github.com/rekahbeee.png",
+    }, 
+  },
 ];
