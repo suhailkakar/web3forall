@@ -40,7 +40,11 @@ export default function Tile({
   };
 
   const downloadImage = () => {
-    download(url, name);
+    if (url.includes(".svg")) {
+      alert("SVGs are not supported for download yet");
+    } else {
+      download(url, name);
+    }
   };
 
   return (

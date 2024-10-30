@@ -30,7 +30,12 @@ export default function DefaultPopup({ id }: { id: string }) {
   };
 
   const downloadImage = () => {
-    download(url, name);
+    console.log(url);
+    if (url.includes(".svg")) {
+      alert("SVGs are not supported for download yet");
+    } else {
+      download(url, name);
+    }
   };
 
   const closeModal = () => {
