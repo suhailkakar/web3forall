@@ -194,7 +194,7 @@ export const images = [
     name: "seed phrase, private key, and public key",
     id: "seed-phrase-private-key-and-public-key",
     category: ["all", "defi"],
-    url: "https://ik.imagekit.io/rekahbeee/seed-phrase-private-key-and-public-key.png?updatedAt=1729170107451",
+    url: "https://ik.imagekit.io/rekahbeee/seed-phrase-private-key-and-public-key.svg",
     author: {
       name: "Rebekah",
       url: "https://github.com/rekahbeee",
