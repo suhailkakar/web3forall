@@ -212,4 +212,15 @@ export const images = [
       image: "https://github.com/rekahbeee.png",
     }, 
   },
+  {
+    name: "liquid-staking",
+    id: "liquid-staking",
+    category: ["all", "defi"],
+    url: "https://ik.imagekit.io/rekahbeee/liquid-staking.svg?updatedAt=1731847131334",
+    author: {
+      name: "Rebekah",
+      url: "https://github.com/rekahbeee",
+      image: "https://github.com/rekahbeee.png",
+    }, 
+  },
 ];
