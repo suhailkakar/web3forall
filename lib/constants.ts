@@ -213,6 +213,17 @@ export const images = [
     }, 
   },
   {
+    name: "liquid-staking",
+    id: "liquid-staking",
+    category: ["all", "defi"],
+    url: "https://ik.imagekit.io/rekahbeee/liquid-staking.svg?updatedAt=1731847131334",
+    author: {
+      name: "Rebekah",
+      url: "https://github.com/rekahbeee",
+      image: "https://github.com/rekahbeee.png",
+    }, 
+  },
+  {
   "name": "Suilend",
   "id": "suilend",
   "category": ["all", "defi"],
@@ -221,9 +232,9 @@ export const images = [
     "name": "Goodylili",
     "url": "https://github.com/goodylili",
     "image": "https://github.com/goodylili.png"
-  }
-},
-{
+     }, 
+  },
+  {
   "name": "Cosmos",
   "id": "cosmos",
   "category": ["all", "layer 1"],
