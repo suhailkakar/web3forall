@@ -321,5 +321,16 @@ export const images = [
     "url": "https://github.com/goodylili",
     "image": "https://github.com/goodylili.png"
   }
+},
+{
+  "name": "Wormhole",
+  "id": "wormhole",
+  "category": ["all"],
+  "url": "",
+  "author": {
+    "name": "Wormhole",
+    "url": "https://github.com/wormhole-foundation",
+    "image": "https://github.com/wormhole-foundation.png"
+  }
 }
 ];
