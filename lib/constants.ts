@@ -188,7 +188,7 @@ export const images = [
       name: "Helen",
       url: "https://github.com/hehozo",
       image: "https://github.com/hehozo.png",
-    }, 
+    },
   },
   {
     name: "seed phrase, private key, and public key",
@@ -199,7 +199,7 @@ export const images = [
       name: "Rebekah",
       url: "https://github.com/rekahbeee",
       image: "https://github.com/rekahbeee.png",
-    }, 
+    },
   },
   {
     name: "bridging",
@@ -210,7 +210,7 @@ export const images = [
       name: "Rebekah",
       url: "https://github.com/rekahbeee",
       image: "https://github.com/rekahbeee.png",
-    }, 
+    },
   },
   {
     name: "liquid-staking",
@@ -221,7 +221,7 @@ export const images = [
       name: "Rebekah",
       url: "https://github.com/rekahbeee",
       image: "https://github.com/rekahbeee.png",
-    }, 
+    },
   },
   {
     name: "optimistic-rollups",
@@ -232,116 +232,116 @@ export const images = [
       name: "Rebekah",
       url: "https://github.com/rekahbeee",
       image: "https://github.com/rekahbeee.png",
-    }, 
+    },
   },
   {
-  "name": "Suilend",
-  "id": "suilend",
-  "category": ["all", "defi"],
-  "url": "https://ik.imagekit.io/tcldcgu1o/Suilend%20.jpeg?updatedAt=1729447753143",
-  "author": {
-    "name": "Goodylili",
-    "url": "https://github.com/goodylili",
-    "image": "https://github.com/goodylili.png"
-     }, 
+    name: "Suilend",
+    id: "suilend",
+    category: ["all", "defi"],
+    url: "https://ik.imagekit.io/tcldcgu1o/Suilend%20.jpeg?updatedAt=1729447753143",
+    author: {
+      name: "Goodylili",
+      url: "https://github.com/goodylili",
+      image: "https://github.com/goodylili.png",
+    },
   },
   {
-  "name": "Cosmos",
-  "id": "cosmos",
-  "category": ["all", "layer 1"],
-  "url": "https://ik.imagekit.io/tcldcgu1o/Cosmos.jpeg?updatedAt=1729448927962",
-  "author": {
-    "name": "Goodylili",
-    "url": "https://github.com/goodylili",
-    "image": "https://github.com/goodylili.png"
-  }
-},
-{
-  "name": "Osmosis",
-  "id": "osmosis",
-  "category": ["all", "DeFi", "layer 1"],
-  "url": "https://ik.imagekit.io/tcldcgu1o/Osmosis.jpeg?updatedAt=1729435019335",
-  "author": {
-    "name": "Goodylili",
-    "url": "https://github.com/goodylili",
-    "image": "https://github.com/goodylili.png"
-  }
-},
-{
-  "name": "Sui",
-  "id": "sui",
-  "category": ["all", "layer 1"],
-  "url": "https://ik.imagekit.io/tcldcgu1o/Sui.jpeg?updatedAt=1729448896995",
-  "author": {
-    "name": "Goodylili",
-    "url": "https://github.com/goodylili",
-    "image": "https://github.com/goodylili.png"
-  }
-},
-{
-  "name": "Axelar",
-  "id": "axelar",
-  "category": ["all", "layer 1", "ethereum"],
-  "url": "https://ik.imagekit.io/tcldcgu1o/Axelar.jpeg?updatedAt=1729435019808",
-  "author": {
-    "name": "Goodylili",
-    "url": "https://github.com/goodylili",
-    "image": "https://github.com/goodylili.png"
-  }
-},
-{
-  "name": "TradePort",
-  "id": "tradeport",
-  "category": ["all", "defi", ],
-  "url": "https://ik.imagekit.io/tcldcgu1o/TradePort.jpeg?updatedAt=1729435018464",
-  "author": {
-    "name": "Goodylili",
-    "url": "https://github.com/goodylili",
-    "image": "https://github.com/goodylili.png"
-  }
-},
-{
-  "name": "Jumper",
-  "id": "jumper",
-  "category": ["all", "defi"],
-  "url": "https://ik.imagekit.io/tcldcgu1o/Jumper.jpeg?updatedAt=1729449044500",
-  "author": {
-    "name": "Goodylili",
-    "url": "https://github.com/goodylili",
-    "image": "https://github.com/goodylili.png"
-  }
-},
-{
-  "name": "PStake",
-  "id": "pstake",
-  "category": ["all", "defi"],
-  "url": "https://ik.imagekit.io/tcldcgu1o/PStake.jpeg?updatedAt=1729449065394",
-  "author": {
-    "name": "Goodylili",
-    "url": "https://github.com/goodylili",
-    "image": "https://github.com/goodylili.png"
-  }
-},
-{
-  "name": "SpringSui",
-  "id": "springsui",
-  "category": ["all", "defi"],
-  "url": "https://ik.imagekit.io/tcldcgu1o/SpringSui.jpeg?updatedAt=1729448992415",
-  "author": {
-    "name": "Goodylili",
-    "url": "https://github.com/goodylili",
-    "image": "https://github.com/goodylili.png"
-  }
-},
-{
-  "name": "Wormhole",
-  "id": "wormhole",
-  "category": ["all"],
-  "url": "",
-  "author": {
-    "name": "Wormhole",
-    "url": "https://github.com/wormhole-foundation",
-    "image": "https://github.com/wormhole-foundation.png"
-  }
-}
+    name: "Cosmos",
+    id: "cosmos",
+    category: ["all", "layer 1"],
+    url: "https://ik.imagekit.io/tcldcgu1o/Cosmos.jpeg?updatedAt=1729448927962",
+    author: {
+      name: "Goodylili",
+      url: "https://github.com/goodylili",
+      image: "https://github.com/goodylili.png",
+    },
+  },
+  {
+    name: "Osmosis",
+    id: "osmosis",
+    category: ["all", "DeFi", "layer 1"],
+    url: "https://ik.imagekit.io/tcldcgu1o/Osmosis.jpeg?updatedAt=1729435019335",
+    author: {
+      name: "Goodylili",
+      url: "https://github.com/goodylili",
+      image: "https://github.com/goodylili.png",
+    },
+  },
+  {
+    name: "Sui",
+    id: "sui",
+    category: ["all", "layer 1"],
+    url: "https://ik.imagekit.io/tcldcgu1o/Sui.jpeg?updatedAt=1729448896995",
+    author: {
+      name: "Goodylili",
+      url: "https://github.com/goodylili",
+      image: "https://github.com/goodylili.png",
+    },
+  },
+  {
+    name: "Axelar",
+    id: "axelar",
+    category: ["all", "layer 1", "ethereum"],
+    url: "https://ik.imagekit.io/tcldcgu1o/Axelar.jpeg?updatedAt=1729435019808",
+    author: {
+      name: "Goodylili",
+      url: "https://github.com/goodylili",
+      image: "https://github.com/goodylili.png",
+    },
+  },
+  {
+    name: "TradePort",
+    id: "tradeport",
+    category: ["all", "defi"],
+    url: "https://ik.imagekit.io/tcldcgu1o/TradePort.jpeg?updatedAt=1729435018464",
+    author: {
+      name: "Goodylili",
+      url: "https://github.com/goodylili",
+      image: "https://github.com/goodylili.png",
+    },
+  },
+  {
+    name: "Jumper",
+    id: "jumper",
+    category: ["all", "defi"],
+    url: "https://ik.imagekit.io/tcldcgu1o/Jumper.jpeg?updatedAt=1729449044500",
+    author: {
+      name: "Goodylili",
+      url: "https://github.com/goodylili",
+      image: "https://github.com/goodylili.png",
+    },
+  },
+  {
+    name: "PStake",
+    id: "pstake",
+    category: ["all", "defi"],
+    url: "https://ik.imagekit.io/tcldcgu1o/PStake.jpeg?updatedAt=1729449065394",
+    author: {
+      name: "Goodylili",
+      url: "https://github.com/goodylili",
+      image: "https://github.com/goodylili.png",
+    },
+  },
+  {
+    name: "SpringSui",
+    id: "springsui",
+    category: ["all", "defi"],
+    url: "https://ik.imagekit.io/tcldcgu1o/SpringSui.jpeg?updatedAt=1729448992415",
+    author: {
+      name: "Goodylili",
+      url: "https://github.com/goodylili",
+      image: "https://github.com/goodylili.png",
+    },
+  },
+  {
+    name: "Wormhole",
+    id: "wormhole",
+    category: ["all"],
+    url: "https://raw.githubusercontent.com/ilariae/web3forall/main/Wormhole-Excalidraw.png",
+    author: {
+      name: "Wormhole",
+      url: "https://github.com/wormhole-foundation",
+      image: "https://github.com/wormhole-foundation.png",
+    },
+  },
 ];
