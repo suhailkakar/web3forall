@@ -224,6 +224,17 @@ export const images = [
     }, 
   },
   {
+    name: "optimistic-rollups",
+    id: "optimistic-rollups",
+    category: ["all", "ethereum", "layer 2"],
+    url: "https://ik.imagekit.io/rekahbeee/optimistic-rollups.svg?updatedAt=1734688820473",
+    author: {
+      name: "Rebekah",
+      url: "https://github.com/rekahbeee",
+      image: "https://github.com/rekahbeee.png",
+    }, 
+  },
+  {
   "name": "Suilend",
   "id": "suilend",
   "category": ["all", "defi"],
