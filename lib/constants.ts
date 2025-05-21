@@ -235,6 +235,17 @@ export const images = [
     }, 
   },
   {
+    name: "zk-rollups",
+    id: "zk-rollups",
+    category: ["all", "ethereum", "layer 2", "zk"],
+    url: "https://ik.imagekit.io/rekahbeee/zk-rollups.svg?updatedAt=1747853441835",
+    author: {
+      name: "Rebekah",
+      url: "https://github.com/rekahbeee",
+      image: "https://github.com/rekahbeee.png",
+    }, 
+  },
+  {
   "name": "Suilend",
   "id": "suilend",
   "category": ["all", "defi"],
