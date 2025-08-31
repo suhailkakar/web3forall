@@ -246,6 +246,17 @@ export const images = [
     },
   },
   {
+    name: "boundless",
+    id: "boundless",
+    category: ["all", "zk"],
+    url: "https://ik.imagekit.io/rekahbeee/boundless.svg?updatedAt=1756643247822",
+    author: {
+      name: "Rebekah",
+      url: "https://github.com/rekahbeee",
+      image: "https://github.com/rekahbeee.png",
+    },
+  },
+  {
     name: "Suilend",
     id: "suilend",
     category: ["all", "defi"],
